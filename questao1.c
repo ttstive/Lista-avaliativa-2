@@ -11,7 +11,7 @@ int somaVetores(int valores[], int tamanho) {
         } // o while so vai funcionar enquanto meu vetor tiver mais que um valor, somando de 2 em 2 até que reste somente 1
         tamanho--;  // Atualiza o tamanho da lista
         for (int i = 0; i < tamanho; i++) {
-            printf("%d ", valores[i]); // tem somente um backspace apos %d, para que fiquem com espaçamento conforme o que foi pedido
+            printf("%d", valores[i]); // tem somente um backspace apos %d, para que fiquem com espaçamento conforme o que foi pedido
         }
         printf("\n");
     }
@@ -28,7 +28,7 @@ int main() {
     }
 
     for (int i = 0; i < n_elementos; i++) {
-        printf("%d ", conjunto_de_valores[i]);
+        printf("%d", conjunto_de_valores[i]);
     }
     printf("\n");
 
