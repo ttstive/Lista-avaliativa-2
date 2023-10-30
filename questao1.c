@@ -29,6 +29,15 @@ int main() {
         scanf("%d", &conjunto_de_valores[i]);
     }
 
+    // Imprima os valores lidos aqui
+    printf("Valores lidos: ");
+    for (int i = 0; i < n_elementos; i++) {
+        printf("%d", conjunto_de_valores[i]);
+        if (i < n_elementos - 1) {
+            printf(" "); // Adicione um espaço entre os valores lidos, exceto para o último valor
+        }
+    }
+    printf("\n");
 
     somaVetores(conjunto_de_valores, n_elementos);
 
